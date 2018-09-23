@@ -2,68 +2,119 @@
 <html>
 <head>
 	<title> Garena | AOV </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body style="font-family: 'roboto', sans-serif; background-color: #070D1D; margin: 0;">
-	<table width="100%">
-		<tr style="background-color: #fff;">
-			<td>
-				<img src="garena.png" width="145px" height="50px" style="margin-left: 250px;">
-				<a target="_blank" href="https://sso.garena.com/ui/login?app_id=10100&redirect_uri=https%3A%2F%2Faccount.garena.com%2F%3Flocale_name%3DID&locale=id-ID" style="float: right; margin-right: 250px;">Register</a>
-				<a target="_blank" href="https://www.garena.co.id/" style="float : right; color: #E41E26; margin-right: 10px;">Game</a>
-			</td>
-		</tr>
-	</table>
-	<table style="background-color: #1A1A1A; box-shadow: 0px 20px rgba(0, 0, 0, 0.25);">
-		<tr>
-			<td>
-				<img src="logo.png" width="116px" height="52px" style="margin-left: 300px; margin-right: 50px;">
-			</td>
-			<td width="15%"><a href="" style="color: #fff;">News</a></td>
-			<td width="15%"><a href="" style="color: #fff">Live</a></td>
-			<td width="15%"><a href="index.html" style="font-style: bold; color: #fff">Home</a></td>
-			<td width="15%"><a href="" style="color: #fff">Store</a></td>
-			<td width="15%"><a href="" style="color: #fff">Community</a></td>
-		</tr>
-	</table>
-	<table>
-		<tr>
-			<td>
-				<img src="img/back.jpeg">
-			</td>
-		</tr>
-	</table>
-	<table>
-		<td>
-			<img src="img/playstore.png" style="margin-left: 500px;">
-			</td>
-		<td>
-			<img src="img/appsstore.png" style="margin-left: 700px;">
-		</td>
-	</table>
-	<table width="100%" style="background-image: linear-gradient(to right, #090F1B, #302312, #090F1B); box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);">
-		<tr>
-			<td width="20%"><p style="font-style: bold; color: #fff;">Event</p></td>
-			<td width="20%"><p style="color: #fff">Update</p></td>
-			<td width="20%"><p style="color: #fff">Teams</p></td>
-			<td width="20%"><p style="color: #fff">Guides</p></td>
-			<td width="20%"><p style="color: #fff">WTF</p></td>
-		</tr>
-	</table>
-	<table style="">
-		<tr>
-			<td>
-			<img src="img/event2.jpg" style="width: 510px; margin: 50px 0px 50px 400px;">
-			</td>
-			<td><p style="color: #f3f3f3; margin-left: 50px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu ipsum ipsum.</p></td>
-		</tr>
-	</table>
-	<table width="100%">
-		<img src="img/bg.png" style="width: 100%;">
-	</table>
-	<ol style="color: #fff;">Game Garena
-		<li>AOV</li>
-		<li>Ha? Mobile Legend?</li>
-		<li>:v</li>
-	</ol>
+<body>
+	<div class="garena">
+			<a href="garena.com" id="logo_g"><img src="garena.png" alt="garena"></a>
+			<ul>
+				<li>
+					<a href="">Register</a>
+				</li>
+				<li>
+					<a href="" style="color: red;">Game</a>
+				</li>
+			</ul>
+		</ul>
+	</div>
+	<div class="nav">
+		<a href="index.html" id="logo"><img src="logo.png" alt="AOV"></a>
+		<ul>
+			<li>
+				<a href="#">News</a>
+			</li>
+			<li>
+				<a href="#">Live</a>
+			</li>
+			<li id="active">
+				<a href="#">Home</a>
+			</li>
+			<li>
+				<a href="#">Store</a>
+			</li>
+			<li>
+				<a href="#">Community</a>
+			</li>
+			<li id="language">
+				<p><img src="img/language.png"> Language <img src="img/next_language.png"></p>
+			</li>
+		</ul>
+	</div>
+	<div class="home">
+			<a href="#"><img src="img/playstore.png"></a>
+			<a href="#"><img src="img/appsstore.png"></a>
+	</div>
+	<div class="nav_event">
+		<ul>
+			<li id="active">
+				<a href="#" style="margin-left: 300px;">Event</a>
+			</li>
+			<li>
+				<a href="#">Update</a>
+			</li>
+			<li>
+				<a href="#">Teams</a>
+			</li>
+			<li>
+				<a href="#">Guides</a>
+			</li>
+			<li>
+				<a href="#">WTF</a>
+			</li>
+		</ul>
+	</div>
+	<div class="event">
+		<div class="text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel consequat lectus. Maecenas facilisis urna neque, nec fermentum elit luctus quis. Donec sed dignissim turpis. In vel vehicula nunc. Quisque dictum pulvinar est sit amet tincidunt. Aliquam lectus purus, finibus a nulla in, egestas suscipit mauris. Pellentesque aliquam mauris a porttitor pulvinar.</p>
+		</div>
+		<img src="img/event2.jpg"> 
+	</div>
+	<div class="hero">
+		<div class="judul">
+			<h2>LEARN THE BASICS AND BE A</h2>
+			<h1>PROFESSIONAL</h1>
+		</div>
+		<ul class="content">
+			<li id="atas">
+				<p id="a">BASIC TUTORIALS</p><p id="aa">Lorem ipsum dolor sit amet, 
+					consectetur adipiscing elit.
+					Quisque tincidunt, nunc sit amet molestie imperdiet,
+					leo risus pulvinar est, at molestie ipsum quam at justo.</p>
+			</li>
+			<li id="atas">
+				<p id="a">HERO AGILITY</p>
+				<p id="aa"> Lorem ipsum dolor sit amet, 
+					consectetur adipiscing elit.
+					Quisque tincidunt, nunc sit amet molestie imperdiet,
+					leo risus pulvinar est, at molestie ipsum quam at justo.</p>
+			</li>	
+			<li id="atas">	
+				<p id="a">BUY SOME ITEM</p>
+				<p id="aa">Lorem ipsum dolor sit amet, 
+					consectetur adipiscing elit.
+					Quisque tincidunt, nunc sit amet molestie imperdiet,
+					leo risus pulvinar est, at molestie ipsum quam at justo.</p>
+			</li>
+			<li class="kiri">	
+				<p id="a">PUSH TO WIN</p>
+				<p id="aa">Lorem ipsum dolor sit amet, 
+					consectetur adipiscing elit.
+					Quisque tincidunt, nunc sit amet molestie imperdiet,
+					leo risus pulvinar est, at molestie ipsum quam at justo.</p>
+			</li>
+			<li class="kanan">
+				<p id="a">TEAM SOLID</p>
+				<p id="aa"> Lorem ipsum dolor sit amet, 
+					consectetur adipiscing elit.
+					Quisque tincidunt, nunc sit amet molestie imperdiet,
+					leo risus pulvinar est, at molestie ipsum quam at justo.</p>
+			</li>
+		</ul>
+	</div>
+	<div class="footer">
+		<img src="img/end.jpg">
+		<p class="CU">Contact Us</p>
+		<a href="#" class="AOV">AOV</a>
+	</div>
 </body>
 </html>
